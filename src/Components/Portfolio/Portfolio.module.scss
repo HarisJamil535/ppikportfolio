@@ -1,0 +1,66 @@
+.gothic-a1-black {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .wrapper{
+    padding: 0 15%;
+    @media (min-width:1200px) and (max-width:1400px){
+        padding: 0 13%;
+    }
+    @media (min-width:992px) and (max-width:1200px){
+        padding: 0 10%;
+    }
+    @media (min-width:768px) and (max-width:992px){
+        padding: 0 8%;
+    }
+    @media (min-width:576px) and (max-width:768px){
+        padding: 0 6%;
+    }
+    @media (max-width:576px){
+        padding: 0 3%;
+    }
+
+    img{
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+  }
+.portfolio{
+    margin-top: 660px;
+    font-weight: 800;
+    font-size: 228px;
+    line-height: 196px;
+    text-align: center;
+    color: #2b2a33;
+    margin-bottom: 380px;
+    @media (min-width:1200px) and (max-width:1400px){
+        font-size: 196px;
+        margin-bottom: 250px;
+      }
+      @media (min-width:992px) and (max-width:1200px){
+        font-size: 172px;
+        line-height: 176px;
+        margin-bottom: 200px;
+      }
+      @media (min-width:768px) and (max-width:992px){
+        font-size: 148px;
+        line-height: 156px;
+        margin-bottom: 100px;
+      }
+      @media (min-width:576px) and (max-width:768px){
+        font-size: 120px;
+        line-height: 116px;
+        margin-top: 400px;
+        margin-bottom: 100px;
+      }
+      @media  (max-width:576px){
+        font-size: 92px;
+        line-height: 100px;
+        margin-top: 460px;
+        margin-bottom: 100px;
+      }
+}

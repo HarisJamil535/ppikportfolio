@@ -1,0 +1,144 @@
+.gothic-a1-black {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+h2 {
+  font-weight: 800;
+  font-size: 228px;
+  line-height: 196px;
+  text-align: center;
+  color: #2b2a33;
+  margin-top: 288px;
+  margin-bottom: 140px;
+  @media (min-width:1200px) and (max-width:1400px){
+    font-size: 196px;
+   
+  }
+  @media (min-width:992px) and (max-width:1200px){
+    font-size: 172px;
+    line-height: 176px;
+  }
+  @media (min-width:768px) and (max-width:992px){
+    font-size: 148px;
+    line-height: 156px;
+  }
+  @media (min-width:576px) and (max-width:768px){
+    font-size: 120px;
+    line-height: 116px;
+    margin-top: 180px;
+  }
+  @media  (max-width:576px){
+    font-size: 82px;
+    line-height: 100px;
+    margin-top: 140px;
+    margin-bottom: 100px;
+  }
+}
+.cards{
+    width: 80%;
+    margin:  0 auto;
+    position: relative;
+    .card1{
+        max-width: 535px;
+        
+        border:1px solid black;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 108px;
+        @media (min-width:992px) and (max-width:1200px){
+            padding: 30px;
+            gap: 96px;
+          }
+          @media (min-width:768px) and (max-width:992px){
+            padding: 25px;
+            gap: 76px;
+          }
+          @media (min-width:576px) and (max-width:768px){
+           padding: 20px;
+           gap: 66px;
+          }
+          @media  (max-width:576px){
+            padding: 18px;
+            gap: 50px;
+          }
+        .card-heading{
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 800;
+            max-width: 320px;
+            @media (min-width:992px) and (max-width:1200px){
+               font-size: 30px;
+              }
+              @media (min-width:768px) and (max-width:992px){
+               font-size: 28px;
+              }
+              @media (min-width:576px) and (max-width:768px){
+               font-size: 26px;
+              }
+              @media  (max-width:576px){
+                font-size: 24px;
+              }
+        }
+        .card-para{
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -2%;
+            max-width: 350px;
+        }
+    }
+    .card2{
+        position: absolute;
+        right: 0;
+        max-width: 538px;
+        border:1px solid black;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 108px;
+        margin-top: 40px;
+        @media (min-width:992px) and (max-width:1200px){
+            padding: 30px;
+            gap: 96px;
+          }
+          @media (min-width:768px) and (max-width:992px){
+            padding: 25px;
+            gap: 76px;
+          }
+          @media (min-width:576px) and (max-width:768px){
+           padding: 20px;
+           gap: 66px;
+          }
+          @media  (max-width:576px){
+            padding: 18px;
+            gap: 50px;
+          }
+           .card-heading{
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 800;
+            @media (min-width:992px) and (max-width:1200px){
+                font-size: 30px;
+               }
+               @media (min-width:768px) and (max-width:992px){
+                font-size: 28px;
+               }
+               @media (min-width:576px) and (max-width:768px){
+                font-size: 26px;
+               }
+               @media  (max-width:576px){
+                 font-size: 24px;
+               }
+        }
+        .card-para{
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -2%;
+          
+        }
+
+    }
+}
